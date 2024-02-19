@@ -1,0 +1,41 @@
+.container-header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    opacity: 1;
+}
+
+.container-header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.container-header nav ul li {
+    list-style: none;
+}
+
+.container-header nav ul li a {
+    color:#fff ;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container-information {
+    width: 73%;
+    margin: 15px auto;
+}
+
+.container-information section {
+    height: 100vh;
+}
+
+.container-information section h2 {
+    font-size: 50px;
+}
+
+
